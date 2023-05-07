@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator App | Frontend mentor</title>
+    <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="js/app.js"></script>
+</head>
+<body>
+    <main class="calculator container">
+        <form class="calculator__form">
+            <div class="calculator__container">
+                <div class="calculator__inputs">
+                    <label for="day" class="calculator__label">Day</label>
+                    <input type="number" name="day" id="day" class="calculator__input" placeholder="DD">
+                    <p class="calculator__message"></p>
+                </div>
+                <div class="calculator__inputs">
+                    <label for="month" class="calculator__label">Month</label>
+                    <input type="month" name="month" id="month" class="calculator__input" placeholder="MM">
+                    <p class="calculator__message"></p>
+                </div>
+                <div class="calculator__inputs">
+                    <label for="year" class="calculator__label">Year</label>
+                    <input type="number" name="year" id="year" class="calculator__input" placeholder="YYYY">
+                    <p class="calculator__message"></p>
+                </div>
+            </div>
+            
+
+            <section class="calculator__separator">
+                <hr>
+                <button type="submit" class="calculator__button">
+                    <img src="assets/images/icon-arrow.svg" alt="icon arrow" class="calculator__image">
+                </button>
+            </section>
+        </form>
+        
+        <section class="calculator__results">
+            <h1 class="calculator__year"><span class="calculator__span calculator__span--year">--</span> years</h1>
+            <h2 class="calculator__month"><span class="calculator__span calculator__span--month">--</span> months</h2>
+            <h3 class="calculator__day"><span class="calculator__span calculator__span--day">--</span> days</h3>
+        </section>
+    </main>
+    
+</body>
+</html>
