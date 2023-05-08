@@ -163,7 +163,8 @@ input[type=number] {
 }
 @media(min-width: 900px){
 	.calculator{
-		width: 84.3rem;
+		width: 84rem;
+		min-width: 0;
 		height: 65rem;
 		gap: 5rem;
 		padding: 6.1rem 5.5rem 5rem;
